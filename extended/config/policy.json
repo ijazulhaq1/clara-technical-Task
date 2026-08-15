@@ -1,0 +1,25 @@
+{
+  "hold_seconds": 240,
+  "refractory_seconds": 300,
+  "phase_budget": 1,
+  "confidence": {
+    "high": 0.78,
+    "medium": 0.58
+  },
+  "thresholds": {
+    "participation_imbalance": 0.58,
+    "low_uptake": 0.48,
+    "goal_divergence": 0.52,
+    "regulatory_gap": 0.52,
+    "hidden_difficulty": 0.5
+  },
+  "repair": {
+    "quality_threshold": 0.68,
+    "regulatory_threshold": 0.62,
+    "quality_improvement": 0.12,
+    "regulatory_improvement": 0.12
+  },
+  "escalation_seconds": 240,
+  "check_in_refractory_seconds": 600,
+  "check_in_budget_per_phase": 2
+}
